@@ -1,0 +1,118 @@
+
+.logo{
+    height: 50px;
+    width: auto;
+    object-fit: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 98%;
+
+    
+
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+.right button ,.right-mob button{
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    padding: 3px 0px;
+
+    /*text-stroke */
+    
+    -webkit-text-stroke: 0.2px rgb(212,212,212);
+
+
+}
+.right button:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    color: orangered;
+}
+.navbar-toggler{
+    display: none;
+    height: 35px;
+    width: 35px ;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    z-index: 1000;
+    /* display: flex; */
+   
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    position: relative;
+}
+.navbar-toggler span{
+    height: 2px;
+    width: 20px;
+    background-color: black;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+.navactive span:first-child{
+    display: none;
+    
+}
+.navactive span:nth-child(2){
+  transform: rotate(45deg);
+}
+
+.navactive span:last-child{
+    transform: rotate(135deg);
+    position: absolute;
+    left: 13px;
+}
+
+
+
+@media (max-width:500px){
+    .right{
+        display: none;
+    }
+    .navbar-toggler{
+        display: flex;
+        right: 10px;
+    }
+    .mob-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        height: 100vh;
+    }
+    .mob-right button{
+        background-color: transparent;
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+        border: none;
+        padding: 3px 0px;
+    
+        /*text-stroke */
+        
+        -webkit-text-stroke: 0.2px rgb(212,212,212);
+
+    }
+
+}
