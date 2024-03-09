@@ -102,12 +102,13 @@
         height: 100vh;
     }
     .mob-right button{
-        background-color: transparent;
+        background-color: black;
         color: white;
         font-weight: 400;
         font-size: 18px;
         border: none;
-        padding: 3px 0px;
+        padding:10px;
+        border-radius: 10px;
     
         /*text-stroke */
         
