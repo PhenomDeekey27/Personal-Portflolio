@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Styles/Portfolio.css"
 import Main_img from "../assets/Main_img.png"
-import Smoke_Video from "../assets/C_video.mp4"
+import Smoke_Video from "../assets/C_Video-2.mp4"
 
 const Portfoliosection = () => {
   return (
