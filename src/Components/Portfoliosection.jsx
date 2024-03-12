@@ -15,7 +15,7 @@ const Portfoliosection = () => {
               <p>I am ready to do Freelance Work</p>
           </div>
         </div>
-        <div className="sub-right">
+        {/* <div className="sub-right">
           <div className="stat">
             <h1>10+</h1>
             <p>Happy <br /> Clients</p>
@@ -24,7 +24,7 @@ const Portfoliosection = () => {
             <h1>1+</h1>
             <p>Years of <br />Experience</p>
           </div>
-        </div>
+        </div> */}
 
       </div>
       <img src={Main_img} alt="main-img" className='Main-img'/>

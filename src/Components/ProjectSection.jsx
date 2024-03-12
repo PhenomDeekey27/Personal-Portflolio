@@ -47,6 +47,7 @@ const ProjectSection = () => {
                 
 
           </div>
+          <p className='p-link'>Click anywhere on the box to open the project</p>
              
               
         </div>
@@ -84,6 +85,7 @@ const ProjectSection = () => {
                 
 
           </div>
+          <p className='p-link'>Click anywhere on the box to open the project</p>
               
         </div>
          
@@ -120,6 +122,7 @@ const ProjectSection = () => {
                 
 
           </div>
+          <p className='p-link'>Click anywhere on the box to open the project</p>
              
           </div>
          
